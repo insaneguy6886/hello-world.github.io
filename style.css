@@ -1,0 +1,124 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px
+}
+
+a{
+  text-decoration: none
+}
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav{
+  position: sticky;
+  top: 0;
+}
+.button1{
+  border: 1px;
+  border-color: deepskyblue;
+  border-style: solid;
+}
+
+.button2{
+  border: 1px;
+  border-color: deepskyblue;
+  border-style: solid;
+  background-color: deepskyblue;
+  margin-right: 10px
+}
+
+.about{
+  background-image:linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100%);
+  display: flex;
+  height: 950px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  margin: 0;
+}
+
+.project{
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  height: 1150px;
+  align-item: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.project-image{
+  height: 338px; 
+  margin-bottom:0;
+}
+
+.projects-grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 30px;
+  padding: 10px;
+  align-item: center;
+  justify-content: center;
+}
+
+.project-title{
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  width: 461px;
+  font-size: 25px
+}
+
+.show-all{
+  color: white;
+  font-size: 25px;
+  border: none;
+  background-color: grey;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.contact{
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #6284FF 50%, #FF0000 100% );
+  display: flex;
+  height: 770px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  margin: 0;
+}
+
+.contact-details{
+  color: white;
+  padding: 50px;
+  font-size: 25px;
+}
+
+footer{
+  background-color: black;
+  margin: 0px;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px
+}
